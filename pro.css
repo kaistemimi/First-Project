@@ -1,0 +1,35 @@
+.place {
+	text-align: center;
+	text-decoration: underline;
+	color: red;
+	font-size: 100px;
+	font-style: italic;
+
+}
+
+body {
+	background-image: url("Coffeeandresto.jpg");
+}
+
+.co {
+	width: 100px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 0;
+}
+
+.res {
+	width: 100px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 0;
+}
+
+.fn {
+	font-weight: 900;
+}
+
+.put {
+	text-decoration: underline;
+}
+
