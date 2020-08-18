@@ -3,7 +3,8 @@
 <head>
 	<title>DriFood</title>
 	<link rel="stylesheet" type="text/css" href="pro.css">
-	<script type="pro.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
 </head>
 <body>
 	
@@ -15,7 +16,7 @@
 	<label for="lname" class="fn"> Last Name :</label><br>
 	<input type="text" name="lname"><br>
 	<label for="per" class="fn" id="demo"> Number of Person :</label><br>
-	<input type="number" name="per" min="1"><br>
+	<input id="numPer" type="number" value="" name="per" min="1"><br>
 	<label for="da" class="fn"> Reservation Date : </label><br>
 	<input type="date" name="da">   <input type="time" name="Tim"><br>
 	<label for="tel" class="fn"> Phone Number : </label><br>
@@ -35,10 +36,11 @@
 		<option value=" Closerie Disco - Tunis">
 		<option value=" Le Barbarous Restaurant - Hammamet">	
 	</datalist>
-	<input type="button" Value=" Reserve" onclick="window.location.href='kais2.html'">
-    </form>
+	<input type="button" id="res"  value=" Reserve" href="kais2.html">
+
 	<p><br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6790067.597352468!2d5.066996011782728!3d33.800370834259155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x125595448316a4e1%3A0x3a84333aaa019bef!2sTunisie!5e0!3m2!1sfr!2stn!4v1597696561715!5m2!1sfr!2stn" width="1400" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p><br>
 	<a href="https://www.onamangepourvous.tn/" target="_blank"> Contact</a><br><br>
+	<script  src="pro.js"></script>
 	<footer class="foo"> Created By " TEMIMI KAIS " &copy 2020 </footer>
 </body>
 </html>

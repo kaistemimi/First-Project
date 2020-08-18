@@ -64,3 +64,21 @@ a {
 	size: 100px;
 }
 
+.np {
+	font-size: 80px;
+	text-align: center;
+	color: red;
+	border: solid;
+	 background-color: black;
+	 opacity: 0.7;
+}
+
+.RA {
+	font-size: 80px;
+	text-align: center;
+	color: red;
+	border: solid;
+	 background-color: black;
+	 opacity: 0.7;
+}
+
