@@ -3,21 +3,42 @@
 <head>
 	<title>DriFood</title>
 	<link rel="stylesheet" type="text/css" href="pro.css">
+	<script type="pro.js"></script>
 </head>
 <body>
+	
 	<h1 class="place">DriFood</h1>
-	<h2> Put your information : </h2>
+	<h3 class="tak"> *** Take Your Place *** </h3>
+	<h3 class= "put"> Put your information : </h3><br>
 	<label for="fname" class="fn"> Firs Name : </label><br>
 	<input type="text" name="fname"><br>
 	<label for="lname" class="fn"> Last Name :</label><br>
 	<input type="text" name="lname"><br>
-	<label for="per" class="fn"> Number of Person :</label><br>
-	<input type="number" name="per" max="20"><br>
+	<label for="per" class="fn" id="demo"> Number of Person :</label><br>
+	<input type="number" name="per" min="1"><br>
 	<label for="da" class="fn"> Reservation Date : </label><br>
-	<input type="date" name="da"><br>
+	<input type="date" name="da">   <input type="time" name="Tim"><br>
 	<label for="tel" class="fn"> Phone Number : </label><br>
 	<input type="number" name="tel"><br><br>
-	<button class="co">Coffee</button><button class="res">Restaurant</button>
-
+	<label for="browser" class="fn"> Coffee / Resto / Disco </label><br>
+	<input list="browsers" name="browser" id="browser"><br><br><br>
+	<datalist id="browsers"><br>
+		<option value=" Le Cap Restaurant - Gammarth ">
+		<option value=" Sindbad Disco - Hammamet"> 
+		<option value=" Casa De Gelato Coffee - Sousse">
+		<option value=" Mio Mondo Coffee - Sousse">
+		<option value=" Billionaire Restaurant - Tunis">
+		<option value=" The Saloon - Sousse">
+		<option value=" Monaco Club Coffee - Hammamet">
+		<option value=" La Rambla Cofee - Gammarth">
+		<option value=" Planet Food Restaurant - Sousse">
+		<option value=" Closerie Disco - Tunis">
+		<option value=" Le Barbarous Restaurant - Hammamet">	
+	</datalist>
+	<input type="button" Value=" Reserve" onclick="window.location.href='kais2.html'">
+    </form>
+	<p><br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6790067.597352468!2d5.066996011782728!3d33.800370834259155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x125595448316a4e1%3A0x3a84333aaa019bef!2sTunisie!5e0!3m2!1sfr!2stn!4v1597696561715!5m2!1sfr!2stn" width="1400" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p><br>
+	<a href="https://www.onamangepourvous.tn/" target="_blank"> Contact</a><br><br>
+	<footer class="foo"> Created By " TEMIMI KAIS " &copy 2020 </footer>
 </body>
 </html>

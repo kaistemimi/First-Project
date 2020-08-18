@@ -1,15 +1,19 @@
 .place {
 	text-align: center;
 	text-decoration: underline;
-	color: red;
-	font-size: 100px;
-	font-style: italic;
-
+	color: #33ECFF;
+	font-size: 150px;
+	font-style: oblique;
+	 border: solid;
+	 background-color: black;
+	 opacity: 0.4;
 }
 
 body {
 	background-image: url("Coffeeandresto.jpg");
+	background-blend-mode: lighten;
 }
+
 
 .co {
 	width: 100px;
@@ -27,9 +31,36 @@ body {
 
 .fn {
 	font-weight: 900;
+	color: white;
 }
 
 .put {
 	text-decoration: underline;
+	color: red;
+	font-size: 40px;
+	background-color: black;
+	opacity: 0.7;
+}
+
+.tak {
+	text-decoration: underline;
+	color: #CE33FF;
+	font-size: 40px;
+	text-align: center;
+	
+}
+
+a {
+	font-size: 40px;
+	color: red;
+	background-color: black;
+	opacity: 0.8;
+}
+
+.foo {
+	font-weight: 1200;
+	color: black;
+	text-align: right;
+	size: 100px;
 }
 
